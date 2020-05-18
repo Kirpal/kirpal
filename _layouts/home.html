@@ -39,7 +39,7 @@ layout: default
   {% for project in site.data.projects %}
     <div class="project full-bleed" style="background: {{project.color}}">
       <div class="{{project.type}}">
-        <img class="screenshot " src="/assets/images/projects/{{project.image}}" alt="{{project.name}} Screenshot">
+        <img class="screenshot " src="/assets/images/projects/{{project.image}}" alt="{{project.name}} Screenshot" loading="lazy">
         {% if project.type == "window" or project.type == "website" %}
           <div class="buttons close"></div>
           <div class="buttons minimize"></div>
@@ -74,7 +74,7 @@ layout: default
   <h2>My Tools</h2>
   {% for item in site.data.tech %}
     <div class="tech-item {{item.icon}}-tech-icon" title="{{item.name}}">
-      <img class="tech-icon" src="/assets/images/icons/{{item.icon}}.svg">
+      <img class="tech-icon" src="/assets/images/icons/{{item.icon}}.svg" alt="{{ item.name }} icon">
       <span class="tech-name">{{item.name}}</span>
     </div>
   {% endfor %}
@@ -95,4 +95,4 @@ layout: default
   </div>
 </section>
 
-<script src="/assets/js/index.js" type="text/javascript"></script>
+<script src="/assets/js/index.js" type="text/javascript" defer></script>
