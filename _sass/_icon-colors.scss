@@ -1,0 +1,22 @@
+.tech-item {
+	background: #ffffff;
+
+	&.git-tech-icon { background: #f34f29; }
+	&.html-tech-icon { background: #e54d26; }
+	&.javascript-tech-icon { background: #f4c42a; }
+	&.linux-tech-icon {
+		background: #ffffff;
+		border: 1px solid #cccccc;
+
+		.tech-icon {
+			fill: $color-black;
+		}
+		.tech-name {
+			color: $color-black !important;
+		}
+	}
+	&.nodejs-tech-icon { background: #83CD29; }
+	&.python-tech-icon { background: #3571a2; }
+	&.flutter-tech-icon { background: #2789fd; }
+	&.css-tech-icon { background: #3d8fc6; }
+}

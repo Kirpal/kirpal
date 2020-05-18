@@ -1,0 +1,75 @@
+@import "https://fonts.googleapis.com/css?family=Lato|Hind:400,500";
+
+$break-point: 60rem;
+$color-black: #1a1a1a;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Hind, sans-serif;
+  color: $color-black;
+  min-width: 20rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato, sans-serif;
+}
+
+main section:last-child {
+  padding-bottom: 2rem;
+}
+
+main,
+nav {
+  background: transparent;
+  max-width: 60rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: $break-point) {
+  .full-bleed {
+    margin-left: -1em;
+    width: calc(100% + 2em);
+  }
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #252525;
+  font-weight: 500;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+section {
+  padding-top: 2rem;
+}
+
+ul.no-dots {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding-left: 1rem;
+    text-indent: -0.5rem;
+    color: #252525;
+    line-height: 1.8em;
+  }
+}
+
+@import "nav";
+@import "home";
+@import "tango.css";

@@ -1,0 +1,28 @@
+
+- name: WikiHUH?
+  type: phone
+  color: "#7fd97c"
+  image: wikihuh.jpg
+  description: >-
+    A cross-platform mobile multiplayer game built with Socket.io and Flutter. 
+    Learned how to use Socket.io and TypeScript, and how to create a live multiplayer game.
+  url: https://wikihuh.kirp.al
+  
+- name: College Bot
+  type: phone
+  color: "#0b6eff"
+  image: college_bot.jpg
+  description: >-
+    A cross-platform mobile application to help students with their college search,
+    built with Flutter. Gained a deeper understanding of user interface design and app development,
+    and improved web design skills by creating the landing page.
+  url: https://collegebot.app
+  
+- name: Keyboard Renderer
+  type: preview
+  color: "#ff7c44"
+  image: keyboard-renderer.jpg
+  description: >-
+    A blender plugin to generate a 3D model from a json keyboard layout. It is built with python 
+    on the blender API
+  github: kirpal/keyboard-layout-editor-for-blender

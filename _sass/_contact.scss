@@ -1,0 +1,62 @@
+#contact {
+  align-items: center;
+  background: #1a1a20;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+
+  #contact-title {
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+  }
+
+  @media screen and (max-width: $break-point) {
+    flex-direction: column;
+
+    #contact-title {
+      margin-top: 1rem;
+    }
+  }
+
+  .contact-section {
+    box-sizing: border-box;
+    color: #fff;
+    max-width: 25rem;
+    padding: 1rem;
+    text-align: center;
+
+    #contact-info {
+      list-style-type: none;
+      padding: 0;
+      text-align: left;
+      line-height: 3em;
+
+      .contact-icon {
+        width: 2em;
+        margin: 0 1em;
+        vertical-align: middle;
+      }
+
+      .contact-method {
+        color: #fff;
+        display: inline-block;
+        margin: 0;
+        position: relative;
+        text-decoration: none;
+        vertical-align: middle;
+
+        &::after {
+          background: #555;
+          bottom: 0.6em;
+          content: "";
+          height: 1px;
+          left: 0;
+          position: absolute;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

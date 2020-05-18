@@ -1,0 +1,19 @@
+name: Kirpal Demian
+description: >-
+  I'm a computer science student at Northeastern University. 
+  In my free time, I enjoy running, hiking, cooking, and working on coding projects. 
+  My favorite book is Shoe Dog, the story of Nike. 
+  Contact me if you've got a cool project to work on!
+url: "https://kirp.al"
+github_username:  kirpal
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

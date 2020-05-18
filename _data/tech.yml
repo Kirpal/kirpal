@@ -1,0 +1,24 @@
+
+- name: "Flutter"
+  icon: "flutter"
+
+- name: "Git"
+  icon: "git"
+
+- name: "Javascript"
+  icon: "javascript"
+
+- name: "NodeJS"
+  icon: "nodejs"
+
+- name: "HTML 5"
+  icon: "html"
+
+- name: "Linux"
+  icon: "linux"
+
+- name: "Python"
+  icon: "python"
+
+- name: "CSS 3"
+  icon: "css"
