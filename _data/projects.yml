@@ -4,8 +4,7 @@
   color: "#7fd97c"
   image: wikihuh.jpg
   description: >-
-    A cross-platform mobile multiplayer game built with Socket.io and Flutter. 
-    Learned how to use Socket.io and TypeScript, and how to create a live multiplayer game.
+    A cross-platform mobile multiplayer game built with Socket.io and Flutter.
   url: https://wikihuh.kirp.al
   
 - name: College Bot
@@ -14,8 +13,7 @@
   image: college_bot.jpg
   description: >-
     A cross-platform mobile application to help students with their college search,
-    built with Flutter. Gained a deeper understanding of user interface design and app development,
-    and improved web design skills by creating the landing page.
+    built with Flutter.
   url: https://collegebot.app
   
 - name: Keyboard Renderer
