@@ -1,9 +1,13 @@
 name: Kirpal Demian
+firstname: Kirpal
 description: >-
-  I'm a computer science student at Northeastern University. 
-  In my free time, I enjoy running, hiking, cooking, and working on coding projects. 
-  My favorite book is Shoe Dog, the story of Nike. 
-  Contact me if you've got a cool project to work on!
+  I am a software engineer. I really enjoy building solid mobile apps with fantastic user 
+  experiences. I also like analyzing and connecting data, and working with maps. Outside of 
+  computers, I love distance running, hiking, cross-country skiing, and generally being in the 
+  woods. Right now, I'm trying to find a way to use my skills to fight climate change or increase 
+  global literacy and communication. I really haven't focused in on a specific problem and solution,
+  but I'm always down to talk about it, so please reach out!
+
 url: "https://kirp.al"
 github_username:  kirpal
 

@@ -7,7 +7,9 @@ fetch('https://api.kirp.al/now-playing').then((res) => {
     item.innerHTML = data.status
       + '<a href="' + data.songUrl
       + '" target="_BLANK" rel="noopener" style="color: #1DB954;">'
-      + data.songName + '</a>' + ' by ' + data.artistName;
+      + data.songName + '</a>' + ' by ' + data.artistName
+      + ' <a href="https://joshspicer.com/spotify-now-playing"'
+      + ' target="_BLANK" rel="noopener" style="color: #1DB954; text-decoration: none;">*</a>';
   }
 }).catch((err) => {
   console.log(err);

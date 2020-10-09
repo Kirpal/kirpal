@@ -1,10 +1,12 @@
-date: June 2020
+date: October 2020
 items:
+  - emoji: "🏔️"
+    content: "Living in Salt Lake City, UT"
+  - emoji: "🗺️"
+    content: "Working for <a href=\"https://www.tomtom.com\" style=\"color: #e01b12;\" target=\"_blank\" rel=\"noopener\">TomTom</a>"
   - emoji: "🚒"
     content: "Developing an <a href=\"https://www.getairhorn.com/\" style=\"color: #003366;\" target=\"_blank\" rel=\"noopener\">app</a> for first responder communication"
   - emoji: "⏱️"
     content: "Developing an app for planning and measuring runs"
-  - emoji: "👟"
-    content: "<a href=\"https://www.strava.com/athletes/31124947\" style=\"color: #fc5200;\" target=\"_blank\" rel=\"noopener\">Running</a> with Northeastern Club Running"
   - emoji: "🎧"
     content: "<span id=\"spotify-now-playing\" class=\"loading-dots\">Listening to</span>"

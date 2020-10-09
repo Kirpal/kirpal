@@ -4,8 +4,7 @@ layout: default
 <section id="about">
   <img src="/assets/images/portrait.jpg" alt="Me">
   <div>
-    <span>Hi! My name is</span>
-    <h1>{{site.name}}</h1>
+    <h1>Hi! My name is {{site.firstname}} 👋</h1>
     <p>{{site.description}}</p>
   </div>
 </section>
@@ -15,7 +14,7 @@ layout: default
   <h2>What I'm Doing Now <span id="now-date">({{site.data.now.date}})</span></h2>
   <ul class="no-dots">
     {% for item in site.data.now.items %}
-      <li class="now-item" style="--list-emoji: '{{item.emoji}} ';">{{item.content}}</li>
+      <li class="emoji-list-item" style="--list-emoji: '{{ item.emoji }} ';">{{item.content}}</li>
     {% endfor %}
   </ul>
 </section>
@@ -25,7 +24,7 @@ layout: default
   <h2>My Writing</h2>
   <ul class="no-dots">
     {% for post in site.posts limit: 5 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li class="emoji-list-item" style="--list-emoji: '{{ post.tag }}'"><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     {% if site.posts.size > 5 %}
       <li><a href="/writing">More...</a></li>

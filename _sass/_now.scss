@@ -6,11 +6,6 @@
   padding-left: 0.5em;
 }
 
-.now-item::before {
-  content: var(--list-emoji);
-  padding-right: 0.6em;
-}
-
 .loading-dots:after {
   content: " .";
   animation: dots 1s steps(5, end) infinite;

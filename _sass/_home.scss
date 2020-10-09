@@ -21,11 +21,16 @@
     align-items: flex-start;
 
     img {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       width: 6rem;
       height: 6rem;
     }
   }
+}
+
+.emoji-list-item::before {
+  content: var(--list-emoji);
+  padding-right: 0.6em;
 }
 
 @import "now";

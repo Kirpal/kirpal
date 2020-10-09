@@ -11,7 +11,7 @@
 - name: "NodeJS"
   icon: "nodejs"
 
-- name: "HTML 5"
+- name: "HTML"
   icon: "html"
 
 - name: "Linux"
@@ -20,5 +20,5 @@
 - name: "Python"
   icon: "python"
 
-- name: "CSS 3"
+- name: "CSS"
   icon: "css"
