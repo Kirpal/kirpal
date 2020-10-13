@@ -19,7 +19,7 @@ layout: default
   </ul>
 </section>
 
-<!-- <a name="writing"></a>
+<a name="writing"></a>
 <section id="writing">
   <h2>My Writing</h2>
   <ul class="no-dots">
@@ -30,13 +30,13 @@ layout: default
       <li><a href="/writing">More...</a></li>
     {% endif %}
   </ul>
-</section> -->
+</section>
 
 <a name="projects"></a>
 <section id="projects">
   <h2>My Projects</h2>
   {% for project in site.data.projects %}
-    <div class="project full-bleed" style="background: {{project.color}}">
+    <div class="project full-bleed" style="background: {{project.color}}dd">
       <div class="{{project.type}}">
         <img class="screenshot " src="/assets/images/projects/{{project.image}}" alt="{{project.name}} Screenshot" loading="lazy">
         {% if project.type == "window" or project.type == "website" %}
@@ -81,7 +81,7 @@ layout: default
 
 <a name="contact"></a>
 <section id="contact" class="full-bleed">
-  <h2 id="contact-title">Contact:</h2>
+  <h2 id="contact-title">Contact Me</h2>
   <div class="contact-section">
     <ul id="contact-info">
       {% for service in site.data.contact %}
@@ -94,4 +94,4 @@ layout: default
   </div>
 </section>
 
-<script src="/assets/js/index.js" type="text/javascript" defer></script>
+<script src="/assets/js/spotify.js" type="text/javascript" defer></script>

@@ -1,17 +1,57 @@
 @import "https://fonts.googleapis.com/css?family=Lato|Hind:400,500&display=swap";
 
+@mixin colors-light {
+  --text-primary: #1a1a1a;
+  --text-secondary: #252525;
+  --bg-color: #fafaff;
+  --bg-accent: #eeeeee;
+  --border-color: #cccccc;
+  --tech-bg: #fafaff;
+  --contact-bg: #1a1a20;
+  --contact-fg: #fafaff;
+}
+
+@mixin colors-dark {
+  --text-primary: #fafaff;
+  --text-secondary: #cacacf;
+  --bg-color: #1a1a20;
+  --bg-accent: #3a3a3a;
+  --border-color: #3f3f40;
+  --tech-bg: #1a1a1a;
+  --contact-bg: #2a2a2f;
+  --contact-fg: #fafaff;
+}
+
 $break-point: 60rem;
-$color-black: #1a1a1a;
 
 * {
   box-sizing: border-box;
+  transition: 0.02s all;
 }
 
 body {
+  @media screen and (prefers-color-scheme: dark) {
+    @include colors-dark();
+  }
+
+  @media screen and (prefers-color-scheme: light) {
+    @include colors-light();
+  }
+
+  &.darkmode {
+    @include colors-dark();
+  }
+
+  &.lightmode {
+    @include colors-light();
+  }
+
   margin: 0;
   font-family: Hind, sans-serif;
-  color: $color-black;
+  color: var(--text-primary);
+  background-color: var(--bg-color);
   min-width: 20rem;
+  transition: 0.1s all;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,7 +85,7 @@ h2 {
 }
 
 a {
-  color: #252525;
+  color: var(--text-secondary);
   font-weight: 500;
 
   &:hover {
@@ -65,11 +105,12 @@ ul.no-dots {
   li {
     padding-left: 1rem;
     text-indent: -0.5rem;
-    color: #252525;
+    color: var(--text-secondary);
     line-height: 1.8em;
   }
 }
 
 @import "nav";
 @import "home";
+@import "post";
 @import "tango.css";

@@ -1,7 +1,7 @@
 #now-date {
   font-size: 0.6em;
   font-weight: 400;
-  color: #555;
+  color: var(--text-secondary);
   font-style: italic;
   padding-left: 0.5em;
 }
@@ -18,14 +18,14 @@
     text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
   }
   40% {
-    color: #252525;
+    color: var(--text-secondary);
     text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
   }
   60% {
-    text-shadow: 0.25em 0 0 #252525, 0.5em 0 0 rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 var(--text-secondary), 0.5em 0 0 rgba(0, 0, 0, 0);
   }
   80%,
   100% {
-    text-shadow: 0.25em 0 0 #252525, 0.5em 0 0 #252525;
+    text-shadow: 0.25em 0 0 var(--text-secondary), 0.5em 0 0 var(--text-secondary);
   }
 }

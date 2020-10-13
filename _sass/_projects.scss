@@ -16,7 +16,7 @@
   }
 
   .preview {
-    background: #ddd;
+    background: var(--border-color);
     border-radius: 0.25rem;
     box-sizing: border-box;
     margin: 1rem;
@@ -25,7 +25,6 @@
     width: 20rem;
 
     .screenshot {
-      border-top: 1px solid #ccc;
       display: block;
       position: relative;
       width: 100%;
@@ -53,16 +52,16 @@
   }
   .website {
     @extend .preview;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color);
     padding-top: 1.5rem;
 
     .tab {
-      background: #eee;
-      border-left: 1px solid #ccc;
-      border-right: 1px solid #ccc;
+      background: var(--bg-accent);
+      border-left: 1px solid var(--border-color);
+      border-right: 1px solid var(--border-color);
       border-top-left-radius: 0.25rem;
       border-top-right-radius: 0.25rem;
-      border-top: 1px solid #ccc;
+      border-top: 1px solid var(--border-color);
       height: 1.25rem;
       left: 2.75rem;
       position: absolute;
@@ -98,7 +97,7 @@
   }
   .window {
     @extend .preview;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color);
     padding-top: 1.25rem;
 
     .buttons {
@@ -111,19 +110,19 @@
     width: 10rem;
     margin: 1rem 7rem;
     border-radius: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color);
     overflow: hidden;
     box-sizing: border-box;
-    background: #fff;
+    background: var(--bg-color);
 
     .screenshot {
       position: relative;
       display: block;
       width: 100%;
-      border: 1px solid #efefef;
       border-radius: 0.5rem;
       box-sizing: border-box;
     }
+
     &::after {
       content: "";
       position: absolute;
@@ -133,14 +132,14 @@
       width: 2rem;
       height: 0.125rem;
       border-radius: 0.125rem;
-      background: #ddd;
+      background: var(--border-color);
     }
   }
 
   .information {
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 0.25rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color);
     margin: 1rem;
     max-width: 20rem;
     padding: 1rem;
@@ -156,7 +155,7 @@
       margin: 0;
 
       &::after {
-        background: $color-black;
+        background: var(--text-primary);
         bottom: 0;
         content: "";
         height: 1px;
@@ -167,26 +166,24 @@
     }
 
     .information-description {
-      color: #252525;
+      color: var(--text-secondary);
       margin: 1rem 0;
       line-height: 1.6em;
     }
 
     .information-link {
-      color: #101010;
+      color: var(--text-primary);
       display: inline-block;
       font-weight: 500;
       position: relative;
       text-decoration: none;
-      transition: 0.15s all;
       margin: 0 0.5rem;
       padding: 0.5rem 1rem;
       border-radius: 0.25rem;
-      background: #eee;
+      background: var(--bg-accent);
       box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.04);
 
       &:hover {
-        color: #444;
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.06);
       }
 

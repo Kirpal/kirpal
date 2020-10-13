@@ -25,6 +25,15 @@
     <link rel="stylesheet" href="/assets/css/styles.css" type="text/css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script type="text/javascript">
+      document.onreadystatechange = (e) => {
+      if (window.localStorage.getItem('prefers-color-scheme') == 'dark') {
+        document.body.classList.add('darkmode');
+      } else if (window.localStorage.getItem('prefers-color-scheme') == 'light') {
+        document.body.classList.add('lightmode');
+      }
+    }
+    </script>
   </head>
 
   <body>
@@ -45,6 +54,11 @@
             <li><a href="https://github.com/{{site.github_username}}" target="_BLANK" rel="noopener">GitHub</a></li>
           {% endif %}
           <li><a href="/#contact">Contact</a></li>
+          <li>
+            <svg id="theme-switch" viewBox="0 0 800 800">
+                <polygon points="800,800 800,0 0,800 800,800" />
+            </svg>
+          </li>
         </ul>
       </nav>
     </div>
@@ -53,4 +67,5 @@
       {{ content }}
     </main>
   </body>
+  <script src="/assets/js/darkmode.js" type="text/javascript" defer></script>
 </html>

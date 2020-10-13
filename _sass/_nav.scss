@@ -1,5 +1,5 @@
 #nav-wrapper {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .navigation-bar {
@@ -20,8 +20,26 @@
     margin: 1em;
     margin-left: 0;
     padding: 0.5em 0.65em;
-    border: 0.15em solid $color-black;
+    border: 0.15em solid var(--text-primary);
     border-radius: 0.15em;
+
+    polygon {
+      fill: var(--text-primary);
+    }
+  }
+
+  #theme-switch {
+    height: 1.2em;
+    margin-left: 0.5em;
+    margin-top: 0.15em;
+    border: 0.15em solid var(--text-primary);
+    background: var(--text-primary);
+    border-radius: 100%;
+    cursor: pointer;
+
+    polygon {
+      fill: var(--bg-color);
+    }
   }
 
   #nav-name {
@@ -46,7 +64,7 @@
       padding: 0 0.5em;
 
       a {
-        color: $color-black;
+        color: var(--text-primary);
         text-decoration: none;
         font-weight: 500;
     
