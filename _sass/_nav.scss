@@ -29,16 +29,24 @@
   }
 
   #theme-switch {
-    height: 1.2em;
     margin-left: 0.5em;
-    margin-top: 0.15em;
-    border: 0.15em solid var(--text-primary);
-    background: var(--text-primary);
-    border-radius: 100%;
-    cursor: pointer;
+    margin-top: 0.3em;
+    line-height: 0;
+    padding: 0;
+    border: none;
+    background: none;
 
-    polygon {
+    &:focus:not(:focus-visible) {
+      outline: 0;
+    }
+
+    svg {
+      width: 1.2em;
+      height: 1.2em;
       fill: var(--bg-color);
+      border: 0.15em solid var(--text-primary);
+      background: var(--text-primary);
+      border-radius: 100%;
     }
   }
 

@@ -2,7 +2,11 @@
 layout: default
 ---
 <section id="about">
-  <img src="/assets/images/portrait.jpg" alt="Me">
+  <picture>
+    <source type="image/webp" srcset="/assets/images/portrait.webp">
+    <source type="image/jpeg" srcset="/assets/images/portrait.jpg">
+    <img src="/assets/images/portrait.jpg" alt="Me">
+  </picture>
   <div>
     <h1>Hi! My name is {{site.firstname}} 👋</h1>
     <p>{{site.description}}</p>
@@ -19,7 +23,7 @@ layout: default
   </ul>
 </section>
 
-<a name="writing"></a>
+<!-- <a name="writing"></a>
 <section id="writing">
   <h2>My Writing</h2>
   <ul class="no-dots">
@@ -30,7 +34,7 @@ layout: default
       <li><a href="/writing">More...</a></li>
     {% endif %}
   </ul>
-</section>
+</section> -->
 
 <a name="projects"></a>
 <section id="projects">
