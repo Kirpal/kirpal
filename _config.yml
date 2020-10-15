@@ -17,7 +17,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      inline_styles:
+        - post.scss
+      linked_styles:
+        - tango.css
   - scope:
       path: ""
     values:
       layout: "default"
+
+sass:
+  style: compressed

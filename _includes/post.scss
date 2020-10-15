@@ -1,8 +1,8 @@
 .post-content {
-    img {
+    img, video {
         width: 100%;
         text-align: center;
-        padding: 2rem 10% 0;
+        padding: 2rem 20% 0;
 
         & + em {
             opacity: 0.8;

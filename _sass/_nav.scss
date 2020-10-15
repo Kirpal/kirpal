@@ -55,7 +55,7 @@
     display: inline-block;
     text-decoration: none;
 
-    @media screen and (max-width: $break-point) {
+    @media screen and (max-width: 60rem) {
       display: none;
     }
   }

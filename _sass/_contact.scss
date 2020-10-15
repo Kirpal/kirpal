@@ -13,7 +13,7 @@
     text-align: center;
   }
 
-  @media screen and (max-width: $break-point) {
+  @media screen and (max-width: 60rem) {
     flex-direction: column;
 
     #contact-title {

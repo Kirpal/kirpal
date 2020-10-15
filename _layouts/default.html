@@ -21,10 +21,29 @@
     <meta property="twitter:title" content="{{ site.name }} | {{ page.title }}">
     <meta property="twitter:description" content="{{ page.description | truncate: 150 }}">
     <meta property="twitter:image" content="{{ site.url }}/assets/images/preview.jpg">
-  
-    <link rel="stylesheet" href="/assets/css/styles.css" type="text/css">
+
+    {% capture styles %}
+    {% include main.scss %}
+    {% endcapture %}
+    <style>
+    {{ styles | scssify }}
+    </style>
+
+    {% for stylesheet in page.inline_styles %}
+      {% capture styles %}
+      {% include {{ stylesheet }} %}
+      {% endcapture %}
+      <style>
+      {{ styles | scssify }}
+      </style>
+    {% endfor %}
+
+    {% for stylesheet in page.linked_styles %}
+    <link rel="preload" href="/assets/css/{{stylesheet}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/{{stylesheet}}"></noscript>
+    {% endfor %}
+
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <script type="text/javascript">
       document.onreadystatechange = (e) => {
       if (window.localStorage.getItem('prefers-color-scheme') == 'dark') {
@@ -37,7 +56,7 @@
   </head>
 
   <body>
-    <div id="nav-wrapper" class="map-">
+    <div id="nav-wrapper">
       <nav class="navigation-bar">
         <div class="nav-group">
           <svg id="logo" viewbox="0 0 400 480">
@@ -48,10 +67,10 @@
         </div>
         <ul id="nav-items">
           {% unless page.url == "/" %}
-            <li><a href="/">Home</a></li>
+          <li><a href="/">Home</a></li>
           {% endunless %}
           {% if site.github_username %}
-            <li><a href="https://github.com/{{site.github_username}}" target="_BLANK" rel="noopener">GitHub</a></li>
+          <li><a href="https://github.com/{{site.github_username}}" target="_BLANK" rel="noopener">GitHub</a></li>
           {% endif %}
           <li><a href="/#contact">Contact</a></li>
           <li>
