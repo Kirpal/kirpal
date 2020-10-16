@@ -1,22 +1,20 @@
 .tech-item {
 	background: #ffffff;
 
-	&.git-tech-icon { background: #f34f29; }
-	&.html-tech-icon { background: #e54d26; }
-	&.javascript-tech-icon { background: #f4c42a; }
+	&.git-tech-icon { background: #DE330D; }
+	&.html-tech-icon { background: #D73F19; }
 	&.linux-tech-icon {
 		background: #ffffff;
 		border: 1px solid #cccccc;
-
-		.tech-icon {
-			fill: #1a1a1a;
-		}
+	}
+	&.javascript-tech-icon { background: #f4c42a; }
+	&.linux-tech-icon, &.javascript-tech-icon {
 		.tech-name {
 			color: #1a1a1a !important;
 		}
 	}
-	&.nodejs-tech-icon { background: #83CD29; }
+	&.nodejs-tech-icon { background: #026e00; }
 	&.python-tech-icon { background: #3571a2; }
-	&.flutter-tech-icon { background: #2789fd; }
-	&.css-tech-icon { background: #3d8fc6; }
+	&.flutter-tech-icon { background: #026EF2; }
+	&.css-tech-icon { background: #317AAA; }
 }

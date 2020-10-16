@@ -6,10 +6,10 @@ fetch('https://api.kirp.al/now-playing').then((res) => {
     item.classList.remove("loading-dots");
     item.innerHTML = data.status
       + '<a href="' + data.songUrl
-      + '" target="_BLANK" rel="noopener" style="color: #1DB954;">'
+      + '" target="_BLANK" rel="noopener" style="color: #15843C;">'
       + data.songName + '</a>' + ' by ' + data.artistName
       + ' <a href="https://joshspicer.com/spotify-now-playing"'
-      + ' target="_BLANK" rel="noopener" style="color: #1DB954; text-decoration: none;">*</a>';
+      + ' target="_BLANK" rel="noopener" style="color: #15843C; text-decoration: none;">*</a>';
   }
 }).catch((err) => {
   console.log(err);
