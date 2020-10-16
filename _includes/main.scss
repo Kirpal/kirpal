@@ -7,6 +7,10 @@
   --tech-bg: #fafaff;
   --contact-bg: #1a1a20;
   --contact-fg: #fafaff;
+
+  --now-spotify-color: #15843C;
+  --now-tomtom-color: #e01b12;
+  --now-airhorn-color: #003366;
 }
 
 @mixin colors-dark {
@@ -18,6 +22,10 @@
   --tech-bg: #1a1a1a;
   --contact-bg: #2a2a2f;
   --contact-fg: #fafaff;
+
+  --now-spotify-color: #1DB954;
+  --now-tomtom-color: #f1544d;
+  --now-airhorn-color: #5287bb;
 }
 
 * {
