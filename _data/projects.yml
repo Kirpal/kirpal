@@ -1,12 +1,3 @@
-
-- name: WikiHUH?
-  type: phone
-  color: "#7fd97c"
-  image: wikihuh.jpg
-  description: >-
-    A cross-platform mobile multiplayer game built with Socket.io and Flutter.
-  url: https://wikihuh.kirp.al
-  
 - name: College Bot
   type: phone
   color: "#0b6eff"
@@ -15,7 +6,31 @@
     A cross-platform mobile application to help students with their college search,
     built with Flutter.
   url: https://collegebot.app
-  
+
+- name: AirHorn
+  type: phone
+  color: "#b02c2c"
+  image: airhorn.jpg
+  description: >-
+    The future of first responder communication, enabling advanced collaboration and response.
+  url: https://getairhorn.com
+
+- name: Snap Path
+  type: phone
+  color: "#7860e6"
+  image: snap-path.jpg
+  description: >-
+    A tool to quickly and easily map out running, biking, or walking routes. Built with Flutter and Mapbox
+  github: kirpal/snap_path
+
+- name: WikiHUH?
+  type: phone
+  color: "#7fd97c"
+  image: wikihuh.jpg
+  description: >-
+    A cross-platform mobile multiplayer game built with Socket.io and Flutter.
+  url: https://wikihuh.kirp.al
+
 - name: Keyboard Renderer
   type: preview
   color: "#ff7c44"
