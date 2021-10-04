@@ -1,4 +1,4 @@
-date: February 2021
+date: Fall 2021
 items:
   - emoji: "🌆"
     content: "Living in Boston"
@@ -6,7 +6,7 @@ items:
     content: "Working for <a href=\"https://verygood.ventures\" style=\"color: var(--now-vgv-color);\" target=\"_blank\" rel=\"noopener\">Very Good Ventures</a>"
   # - emoji: "🚒"
   #   content: "Developing an <a href=\"https://www.getairhorn.com/\" style=\"color: var(--now-airhorn-color);\" target=\"_blank\" rel=\"noopener\">app</a> for first responder communication"
-  - emoji: "⏱️"
-    content: "Developing an app for planning and measuring runs"
+  # - emoji: "⏱️"
+  #   content: "Developing an app for planning and measuring runs"
   - emoji: "🎧"
     content: "<span id=\"spotify-now-playing\" class=\"loading-dots\">Listening to</span>"
