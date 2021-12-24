@@ -13,19 +13,18 @@ linked_styles:
     <img src="/assets/images/portrait.jpg" alt="Me">
   </picture>
   <div>
-    <h1>Hi! My name is {{site.firstname}} 👋</h1>
-    <p>{{site.description}}</p>
+    <h1>👋 &nbsp; Hello!</h1>
+    <p>
+      {{site.description}}
+      <br>&nbsp;<br>
+      <b>Right now:</b>
+      <ul class="no-dots">
+        {% for item in site.data.now.items %}
+          <li class="emoji-list-item" style="--list-emoji: '{{ item.emoji }} ';">{{item.content}}</li>
+        {% endfor %}
+      </ul>
+    </p>
   </div>
-</section>
-
-<a name="now"></a>
-<section id="now">
-  <h2>What I'm Doing Now <span id="now-date">({{site.data.now.date}})</span></h2>
-  <ul class="no-dots">
-    {% for item in site.data.now.items %}
-      <li class="emoji-list-item" style="--list-emoji: '{{ item.emoji }} ';">{{item.content}}</li>
-    {% endfor %}
-  </ul>
 </section>
 
 <!-- <a name="writing"></a>
@@ -103,4 +102,4 @@ linked_styles:
   </div>
 </section>
 
-<script src="/assets/js/spotify.js" type="text/javascript" defer></script>
+<script src="/assets/js/now.js" type="text/javascript" defer></script>

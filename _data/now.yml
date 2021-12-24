@@ -1,12 +1,13 @@
-date: Fall 2021
 items:
   - emoji: "🌆"
-    content: "Living in Boston"
+    content: "I live in Boston, MA"
   - emoji: "🦄"
-    content: "Working for <a href=\"https://verygood.ventures\" style=\"color: var(--now-vgv-color);\" target=\"_blank\" rel=\"noopener\">Very Good Ventures</a>"
+    content: "I'm working for <a href=\"https://verygood.ventures\" style=\"color: var(--now-vgv-color);\" target=\"_blank\" rel=\"noopener\">Very Good Ventures</a>"
   # - emoji: "🚒"
   #   content: "Developing an <a href=\"https://www.getairhorn.com/\" style=\"color: var(--now-airhorn-color);\" target=\"_blank\" rel=\"noopener\">app</a> for first responder communication"
   # - emoji: "⏱️"
   #   content: "Developing an app for planning and measuring runs"
   - emoji: "🎧"
-    content: "<span id=\"spotify-now-playing\" class=\"loading-dots\">Listening to</span>"
+    content: "<span id=\"now-playing\" class=\"loading-dots\">I'm listening to</span>"
+  - emoji: "📖"
+    content: "<span id=\"now-reading\" class=\"loading-dots\">I'm reading</span>"
