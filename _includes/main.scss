@@ -15,6 +15,9 @@
   --now-reading-color: #BB6A3E;
   --now-vgv-color: #13b9fd;
   --now-airhorn-color: #003366;
+
+  --star-color: #a9a9a9;
+  --star-background: #fc0;
 }
 
 @mixin colors-dark {
@@ -34,6 +37,9 @@
   --now-reading-color: #BB6A3E;
   --now-vgv-color: #13b9fd;
   --now-airhorn-color: #5287bb;
+
+  --star-color: #686868;
+  --star-background: #fc0;
 }
 
 * {

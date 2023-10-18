@@ -1,0 +1,20 @@
+---
+title: Reading
+description: My reading log
+inline_styles: reading.scss
+---
+<div class="books">
+    {% assign books_read = site.data.reading | where: "status", "read" | sort: "date_finished" | reverse %}
+    {% assign books_reading = site.data.reading | where: "status", "currently-reading" | sort: "date_started" | reverse %}
+    {% assign all_books = books_reading | concat: books_read %}
+    {% for book in all_books %}
+    <div class="book-title" title="{{book.title}}">{{book.title | split: ": " | first}}</div>
+    <div class="book-author">{{book.author}}</div>
+    {% if book.status == "currently-reading" %}
+    <em>Reading now</em>
+    {% else %}
+    <time class="book-finished">{{book.date_finished}}</time>
+    {% endif %}
+    <div class="stars" style="--rating: {{book.rating}};" aria-label="Rating of this book is {{book.rating}} out of 5."></div>
+    {% endfor %}
+</ol>

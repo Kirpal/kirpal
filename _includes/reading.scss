@@ -1,0 +1,53 @@
+.books {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: grid;
+  grid-column-gap: 1em;
+  grid-row-gap: 0.5em;
+  grid-template-columns: 1fr .75fr max-content 6em;
+
+  .book-title {
+    font-style: italic;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  @media screen and (max-width: 45rem) {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    grid-template-columns: 1fr;
+
+    *:nth-child(4n) {
+      padding-bottom: 2em;
+    }
+
+    .book-author {
+      font-size: 0.9em;
+    }
+
+    .book-finished {
+      font-size: 0.9em;
+    }
+  }
+
+  * {
+    display: inline-block;
+  }
+
+
+  .stars {
+    --percent: calc(var(--rating) / 5 * 100% - 0.1em);
+    
+    display: inline-block;
+    
+    &::before {
+      content: '★★★★★';
+      letter-spacing: 3px;
+      background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

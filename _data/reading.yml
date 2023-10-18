@@ -1,0 +1,720 @@
+- title: 'Anne Frank: The Diary of a Young Girl'
+  author: Anne Frank
+  isbn: 9780812415087
+  status: currently-reading
+  date_started: 2023/10/18
+  date_finished: 
+  rating: 
+
+- title: 'My Lost Brothers: The Untold Story by the Yarnell Hill Fire''s Lone Survivor'
+  author: Brendan McDonough
+  isbn: 9780316308182
+  status: read
+  date_started: 2023/09/25
+  date_finished:  2023/09/30
+  rating: 3.5
+
+- title: Tender is the Night
+  author: F. Scott Fitzgerald
+  isbn: 9780241341483
+  status: currently-reading
+  date_started: 2023/08/07
+  date_finished: 
+  rating: 
+
+- title: 'A Farewell to Arms: The Hemingway Library Edition'
+  author: Ernest Hemingway
+  isbn: 9781476764528
+  status: read
+  date_started: 2023/07/18
+  date_finished: 2023/07/29
+  rating: 4.0
+
+- title: Zeitoun
+  author: Dave Eggers
+  isbn: 9780307387943
+  status: read
+  date_started: 2023/07/06
+  date_finished: 2023/07/18
+  rating: 3.0
+
+- title: Verity
+  author: Colleen Hoover
+  isbn: 9781538724743
+  status: read
+  date_started: 
+  date_finished: 2023/07/06
+  rating: 3.0
+
+- title: 'All the Pretty Horses: Book 1 of The Border Trilogy'
+  author: Cormac McCarthy
+  isbn: 9780307481306
+  status: read
+  date_started: 2023/06/04
+  date_finished: 2023/06/04
+  rating: 3.0
+
+- title: 'God Bless You, Mr. Rosewater: A Novel'
+  author: Kurt Vonnegut
+  isbn: 9780385333474
+  status: read
+  date_started: 2023/05/15
+  date_finished: 2023/05/17
+  rating: 4.0
+
+- title: The Red Pony
+  author: John Steinbeck
+  isbn: 9780140187397
+  status: paused
+  date_started: 2023/05/15
+  date_finished: 
+  rating: 
+
+- title: A Man Without a Country
+  author: Kurt Vonnegut
+  isbn: 9780525510130
+  status: read
+  date_started: 
+  date_finished: 2023/03/25
+  rating: 3.0
+
+- title: No Country for Old Men
+  author: Cormac McCarthy
+  isbn: 9780330454537
+  status: read
+  date_started: 
+  date_finished: 2023/03/20
+  rating: 3.5
+
+- title: 'The Anthropocene Reviewed: Essays on a Human-Centered Planet'
+  author: John Green
+  isbn: 9780525555223
+  status: paused
+  date_started: 2023/03/12
+  date_finished: 
+  rating: 
+
+- title: The Beach
+  author: Alex Garland
+  isbn: 9781573226523
+  status: read
+  date_started: 
+  date_finished: 2023/04/07
+  rating: 4.0
+
+- title: 'Tomorrow, and Tomorrow, and Tomorrow: A novel'
+  author: Gabrielle Zevin
+  isbn: 9780735243354
+  status: read
+  date_started: 2023/06/19
+  date_finished: 2023/06/19
+  rating: 4.0
+
+- title: Bicycle Diaries
+  author: David Byrne
+  isbn: 9781101464397
+  status: paused
+  date_started: 2023/03/12
+  date_finished: 
+  rating: 
+
+- title: 'Outline: A Novel'
+  author: Rachel Cusk
+  isbn: 9780374712365
+  status: read
+  date_started: 2023/03/02
+  date_finished: 2023/03/12
+  rating: 2.0
+
+- title: Never Let Me Go
+  author: Kazuo Ishiguro
+  isbn: 9780307371331
+  status: read
+  date_started: 2023/01/04
+  date_finished: 2023/02/09
+  rating: 4.0
+
+- title: The Old Man and the Sea
+  author: Ernest Hemingway
+  isbn: 9783190001507
+  status: read
+  date_started: 2022/11/30
+  date_finished: 2022/12/04
+  rating: 4.0
+
+- title: The Wayward Bus
+  author: John Steinbeck
+  isbn: 9781101177198
+  status: read
+  date_started: 2022/11/28
+  date_finished: 2022/11/28
+  rating: 3.5
+
+- title: 'All Quiet on the Western Front: A Novel'
+  author: Erich Maria Remarque
+  isbn: 9780449911495
+  status: read
+  date_started: 2022/11/19
+  date_finished: 2022/11/23
+  rating: 4.0
+
+- title: 'Junky: The Definitive Text of Junk'
+  author: William S. Burroughs
+  isbn: 9780802120427
+  status: read
+  date_started: 2022/11/06
+  date_finished: 2022/11/30
+  rating: 2.0
+
+- title: The Grapes of Wrath
+  author: John Steinbeck
+  isbn: 9780143039433
+  status: read
+  date_started: 2022/09/26
+  date_finished: 2022/09/28
+  rating: 4.0
+
+- title: Between the World and Me
+  author: Ta-Nehisi Coates
+  isbn: 9781925240702
+  status: read
+  date_started: 2022/09/23
+  date_finished: 2022/11/02
+  rating: 4.0
+
+- title: 'Breakfast of Champions: A Novel'
+  author: Kurt Vonnegut
+  isbn: 9780307567239
+  status: read
+  date_started: 2022/09/20
+  date_finished: 2022/09/26
+  rating: 3.5
+
+- title: 'The Unbearable Lightness of Being: Twentieth Anniversary Edition'
+  author: Milan Kundera
+  isbn: 9780060597184
+  status: read
+  date_started: 2022/11/06
+  date_finished: 2022/12/20
+  rating: 4.0
+
+- title: To a God Unknown
+  author: John Steinbeck
+  isbn: 9781440674396
+  status: read
+  date_started: 2022/08/21
+  date_finished: 2022/08/23
+  rating: 3.5
+
+- title: 'The Fool''s Progress: An Honest Novel'
+  author: Edward Abbey
+  isbn: 9780805057911
+  status: read
+  date_started: 2022/08/21
+  date_finished: 2022/09/20
+  rating: 4.0
+
+- title: The Call of the Wild
+  author: Jack London
+  isbn: 9780141321059
+  status: read
+  date_started: 2022/08/08
+  date_finished: 2022/08/08
+  rating: 2.0
+
+- title: The Road
+  author: Cormac McCarthy
+  isbn: 9780307267450
+  status: read
+  date_started: 2022/02/28
+  date_finished: 2022/08/08
+  rating: 1.0
+
+- title: The Songlines
+  author: Bruce Chatwin
+  isbn: 9780142422571
+  status: read
+  date_started: 2022/07/26
+  date_finished: 2022/08/07
+  rating: 3.0
+
+- title: 'Mother Night: A Novel'
+  author: Kurt Vonnegut
+  isbn: 9780440339076
+  status: read
+  date_started: 2022/07/16
+  date_finished: 2022/07/16
+  rating: 3.0
+
+- title: Franny and Zooey
+  author: J. D. Salinger
+  isbn: 9780316459990
+  status: read
+  date_started: 
+  date_finished: 2022/07/14
+  rating: 3.0
+
+- title: 'Cat''s Cradle: A Novel'
+  author: Kurt Vonnegut
+  isbn: 9780307567277
+  status: read
+  date_started: 2022/06/12
+  date_finished: 2022/06/12
+  rating: 4.0
+
+- title: 'The Unsettlers: In Search of the Good Life in Today''s America'
+  author: Mark Sundeen
+  isbn: 9780735216082
+  status: read
+  date_started: 
+  date_finished: 2022/06/12
+  rating: 3.5
+
+- title: 'The Four Winds: A Novel'
+  author: Kristin Hannah
+  isbn: 9781250178626
+  status: read
+  date_started: 
+  date_finished: 2022/06/09
+  rating: 3.0
+
+- title: 'Bewilderment: A Novel'
+  author: Richard Powers
+  isbn: 9780393881158
+  status: read
+  date_started: 
+  date_finished: 2022/06/09
+  rating: 5.0
+
+- title: 'Slaughterhouse Five Or the Children''s Crusade: A Duty Dance With Death'
+  author: Kurt Vonnegut
+  isbn: 9780440180296
+  status: read
+  date_started: 2022/05/16
+  date_finished: 2022/05/25
+  rating: 3.0
+
+- title: 'The Overstory: A Novel'
+  author: Richard Powers
+  isbn: 9780393635539
+  status: read
+  date_started: 2022/04/29
+  date_finished: 2022/05/12
+  rating: 4.0
+
+- title: Desert Solitaire
+  author: Edward Abbey
+  isbn: 9780816510573
+  status: read
+  date_started: 2022/03/24
+  date_finished: 2022/03/25
+  rating: 5.0
+
+- title: 'Ishmael: A Novel'
+  author: Daniel Quinn
+  isbn: 9780307574800
+  status: read
+  date_started: 2022/02/17
+  date_finished: 2022/02/23
+  rating: 5.0
+
+- title: East of Eden
+  author: John Steinbeck
+  isbn: 9781440631320
+  status: read
+  date_started: 2022/06/13
+  date_finished: 2022/07/07
+  rating: 5.0
+
+- title: 'Annihilation: A Novel'
+  author: Jeff VanderMeer
+  isbn: 9780374104092
+  status: read
+  date_started: 2021/12/13
+  date_finished: 2021/12/13
+  rating: 3.0
+
+- title: Travels with Charley in Search of America
+  author: John Steinbeck
+  isbn: 9781440638886
+  status: read
+  date_started: 2021/12/17
+  date_finished: 2021/12/23
+  rating: 4.5
+
+- title: 'The Death of Ivan Ilyich: Smert'' Ivana Il''icha'
+  author: Leo Tolstoy
+  isbn: 9781784350970
+  status: read
+  date_started: 2021/12/15
+  date_finished: 2021/12/16
+  rating: 3.0
+
+- title: 'Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values'
+  author: Robert M. Pirsig
+  isbn: 9780099786405
+  status: read
+  date_started: 2021/12/23
+  date_finished: 2022/02/17
+  rating: 3.0
+
+- title: Into Thin Air
+  author: Jon Krakauer
+  isbn: 9780679462712
+  status: read
+  date_started: 
+  date_finished: 2021/11/30
+  rating: 3.0
+
+- title: Walden
+  author: Henry Thoreau
+  isbn: 9780807014257
+  status: paused
+  date_started: 2021/11/30
+  date_finished: 
+  rating: 
+
+- title: Confessions of a Recovering Environmentalist and Other Essays
+  author: Paul Kingsnorth
+  isbn: 9781555977801
+  status: read
+  date_started: 2021/10/01
+  date_finished: 2021/10/06
+  rating: 4.0
+
+- title: 'The Unreality of Memory: And Other Essays'
+  author: Elisa Gabbert
+  isbn: 9780374720339
+  status: read
+  date_started: 
+  date_finished: 2021/08/10
+  rating: 3.0
+
+- title: On the Road
+  author: Jack Kerouac
+  isbn: 9780142437254
+  status: read
+  date_started: 2021/10/01
+  date_finished: 2021/12/13
+  rating: 3.0
+
+- title: Dune Messiah
+  author: Frank Herbert
+  isbn: 9780593201732
+  status: read
+  date_started: 2021/06/29
+  date_finished: 2021/06/25
+  rating: 3.5
+
+- title: Dune
+  author: Frank Herbert
+  isbn: 9780441013593
+  status: read
+  date_started: 2021/05/12
+  date_finished: 2021/05/18
+  rating: 5.0
+
+- title: 1Q84
+  author: Haruki Murakami
+  isbn: 9780307957023
+  status: read
+  date_started: 2021/05/25
+  date_finished: 2021/07/04
+  rating: 4.0
+
+- title: 'The Handmaid''s Tale'
+  author: Margaret Atwood
+  isbn: 9781551994963
+  status: read
+  date_started: 2021/04/02
+  date_finished: 2021/04/02
+  rating: 4.0
+
+- title: 'The Hobbit: Or There and Back Again'
+  author: J. R. R. Tolkien
+  isbn: 9780618260300
+  status: read
+  date_started: 
+  date_finished: 2020/01/18
+  rating: 3.0
+
+- title: 'Shoe Dog: A Memoir by the Creator of Nike'
+  author: Phil Knight
+  isbn: 9781501135934
+  status: read
+  date_started: 
+  date_finished: 2020/01/18
+  rating: 5.0
+
+- title: 'The Everything Store: Jeff Bezos and the Age of Amazon'
+  author: Brad Stone
+  isbn: 9780316219259
+  status: read
+  date_started: 
+  date_finished: 2020/01/18
+  rating: 4.0
+
+- title: 'Becoming Steve Jobs: The Evolution of a Reckless Upstart into a Visionary Leader'
+  author: Rick Tetzeli, Brent Schlender
+  isbn: 9780385347402
+  status: read
+  date_started: 
+  date_finished: 2020/01/18
+  rating: 4.0
+
+- title: 'Never Lost Again: The Google Mapping Revolution That Sparked New Industries and Augmented Our Reality'
+  author: Bill Kilday
+  isbn: 9780062673046
+  status: read
+  date_started: 
+  date_finished: 2020/01/18
+  rating: 4.0
+
+- title: 'The Third Door: The Wild Quest to Uncover How the World''s Most Successful People Launched Their Careers'
+  author: Alex Banayan
+  isbn: 9780804136662
+  status: read
+  date_started: 
+  date_finished: 2020/04/21
+  rating: 5.0
+
+- title: Rework
+  author: David Heinemeier Hansson, Jason Fried
+  isbn: 9780307463760
+  status: read
+  date_started: 
+  date_finished: 2020/04/20
+  rating: 3.0
+
+- title: 'Let My People Go Surfing: The Education of a Reluctant Businessman'
+  author: Yvon Chouinard
+  isbn: 9780143037835
+  status: read
+  date_started: 
+  date_finished: 2020/04/10
+  rating: 4.0
+
+- title: 'Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future'
+  author: Ashlee Vance
+  isbn: 9780062301253
+  status: read
+  date_started: 
+  date_finished: 2020/05/16
+  rating: 3.0
+
+- title: Columbine
+  author: Dave Cullen
+  isbn: 9780446552219
+  status: read
+  date_started: 
+  date_finished: 2020/05/03
+  rating: 4.0
+
+- title: Into the Wild
+  author: Jon Krakauer
+  isbn: 9780385486804
+  status: read
+  date_started: 
+  date_finished: 2020/05/03
+  rating: 3.0
+
+- title: 'Vacationland: True Stories from Painful Beaches'
+  author: John Hodgman
+  isbn: 9780735224803
+  status: read
+  date_started: 
+  date_finished: 2020/05/03
+  rating: 3.0
+
+- title: 'The Hitchhiker''s Guide to the Galaxy'
+  author: Douglas Adams
+  isbn: 9780307417138
+  status: read
+  date_started: 
+  date_finished: 2020/01/18
+  rating: 4.0
+
+- title: 'North: Finding My Way While Running the Appalachian Trail'
+  author: Jenny Jurek, Scott Jurek
+  isbn: 9780316433792
+  status: read
+  date_started: 
+  date_finished: 2020/08/23
+  rating: 4.0
+
+- title: 'Under the Banner of Heaven: A Story of Violent Faith'
+  author: Jon Krakauer
+  isbn: 9780385511513
+  status: read
+  date_started: 
+  date_finished: 2020/08/23
+  rating: 4.0
+
+- title: 'Talking to Strangers: What We Should Know about the People We Don''t Know'
+  author: Malcolm Gladwell
+  isbn: 9780316478526
+  status: read
+  date_started: 
+  date_finished: 2020/05/03
+  rating: 3.0
+
+- title: 'Delivering Happiness: A Path to Profits, Passion, and Purpose'
+  author: Tony Hsieh
+  isbn: 9780446576314
+  status: read
+  date_started: 
+  date_finished: 2020/09/15
+  rating: 2.0
+
+- title: Educated
+  author: Tara Westover
+  isbn: 9781443452502
+  status: read
+  date_started: 
+  date_finished: 2020/09/21
+  rating: 4.0
+
+- title: 'Bad Blood: Secrets and Lies in a Silicon Valley Startup'
+  author: John Carreyrou
+  isbn: 9781524731663
+  status: read
+  date_started: 
+  date_finished: 2020/09/24
+  rating: 4.0
+
+- title: 'Wild: From Lost to Found on the Pacific Crest Trail'
+  author: Cheryl Strayed
+  isbn: 9780307476074
+  status: read
+  date_started: 
+  date_finished: 2020/09/29
+  rating: 3.0
+
+- title: An American Marriage
+  author: Tayari Jones
+  isbn: 9780143789604
+  status: read
+  date_started: 
+  date_finished: 2020/10/13
+  rating: 3.0
+
+- title: 'The Stranger in the Woods: The Extraordinary Story of the Last True Hermit'
+  author: Michael Finkel
+  isbn: 9781101875681
+  status: read
+  date_started: 
+  date_finished: 2020/11/23
+  rating: 3.0
+
+- title: 'Where Men Win Glory: The Odyssey of Pat Tillman'
+  author: Jon Krakauer
+  isbn: 9780385522267
+  status: read
+  date_started: 
+  date_finished: 2020/11/27
+  rating: 4.0
+
+- title: 'A Gentleman in Moscow: A Novel'
+  author: Amor Towles
+  isbn: 9780143110439
+  status: read
+  date_started: 
+  date_finished: 2020/09/24
+  rating: 5.0
+
+- title: 'The Boy Who Runs: The Odyssey of Julius Achon'
+  author: John Brant
+  isbn: 9780553392159
+  status: read
+  date_started: 
+  date_finished: 2020/12/11
+  rating: 4.0
+
+- title: Little Fires Everywhere
+  author: Celeste Ng
+  isbn: 9780735224315
+  status: read
+  date_started: 
+  date_finished: 2020/12/06
+  rating: 4.0
+
+- title: Siddartha
+  author: Hermann Hesse
+  isbn: 9781720469360
+  status: read
+  date_started: 
+  date_finished: 2021/01/05
+  rating: 4.0
+
+- title: 'Quiet: The Power of Introverts in a World that Can''t Stop Talking'
+  author: Susan Cain
+  isbn: 9780307352156
+  status: read
+  date_started: 
+  date_finished: 2021/01/18
+  rating: 4.0
+
+- title: Demian
+  author: Hermann Hesse
+  isbn: 9780060931919
+  status: read
+  date_started: 
+  date_finished: 2021/01/05
+  rating: 4.0
+
+- title: 'Duel in the Sun: Alberto Salazar, Dick Beardsley, and America''s Greatest Marathon'
+  author: John Brant
+  isbn: 9781594862625
+  status: read
+  date_started: 
+  date_finished: 2021/02/17
+  rating: 4.0
+
+- title: 'Man''s Search for Meaning'
+  author: Viktor E. Frankl
+  isbn: 9780807014288
+  status: read
+  date_started: 
+  date_finished: 2021/02/17
+  rating: 4.0
+
+- title: Ready Player One
+  author: Ernest Cline
+  isbn: 9780307887436
+  status: read
+  date_started: 
+  date_finished: 2021/02/21
+  rating: 5.0
+
+- title: 'World War Z: An Oral History of the Zombie War'
+  author: Max Brooks
+  isbn: 9780307346605
+  status: read
+  date_started: 
+  date_finished: 2021/03/11
+  rating: 3.0
+
+- title: What I Talk About When I Talk About Running
+  author: Haruki Murakami
+  isbn: 9780307373083
+  status: read
+  date_started: 
+  date_finished: 2021/03/11
+  rating: 4.0
+
+- title: 'Ender''s Game'
+  author: Orson Scott Card
+  isbn: 9780765394866
+  status: read
+  date_started: 
+  date_finished: 2021/03/17
+  rating: 4.0
+
+- title: The Great Gatsby
+  author: F. Scott Fitzgerald
+  isbn: 9789898559425
+  status: read
+  date_started: 2021/04/22
+  date_finished: 2021/05/12
+  rating: 3.0
+

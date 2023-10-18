@@ -1,9 +1,0 @@
-items:
-  - emoji: "🌆"
-    content: "I live in Boston, MA"
-  - emoji: "🦄"
-    content: "I'm working for <a href=\"https://verygood.ventures\" style=\"color: var(--now-vgv-color);\" target=\"_blank\" rel=\"noopener\">Very Good Ventures</a>"
-  - emoji: "🎧"
-    content: "<span id=\"now-playing\" class=\"loading-dots\">I'm listening to</span>"
-  - emoji: "📖"
-    content: "<span id=\"now-reading\" class=\"loading-dots\">I'm reading</span>"

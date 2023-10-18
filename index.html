@@ -19,26 +19,15 @@ linked_styles:
       <br>&nbsp;<br>
       <b>Right now:</b>
       <ul class="no-dots">
-        {% for item in site.data.now.items %}
-          <li class="emoji-list-item" style="--list-emoji: '{{ item.emoji }} ';">{{item.content}}</li>
-        {% endfor %}
+      <li class="emoji-list-item" style="--list-emoji: '🌆 ';">I live in Boston, MA</li>
+      <li class="emoji-list-item" style="--list-emoji: '🦄 ';">I'm working for <a href="https://verygood.ventures" style="color: var(--now-vgv-color);" target="_blank" rel="noopener">Very Good Ventures</a></li>
+      <li class="emoji-list-item" style="--list-emoji: '🎧 ';"><span id="now-playing" class="loading-dots">I'm listening to</span></li>
+      {% assign current_book = site.data.reading | where: "status", "currently-reading" | sort: "date-started" | first %}
+      <li class="emoji-list-item" style="--list-emoji: '📖 ';">I'm reading <a href="/reading" style="color: var(--now-reading-color);"><cite>{{current_book.title}}</cite></a> by {{current_book.author}}</li>
       </ul>
     </p>
   </div>
 </section>
-
-<!-- <a name="writing"></a>
-<section id="writing">
-  <h2>My Writing</h2>
-  <ul class="no-dots">
-    {% for post in site.posts limit: 5 %}
-      <li class="emoji-list-item" style="--list-emoji: '{{ post.tag }}'"><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-    {% if site.posts.size > 5 %}
-      <li><a href="/writing">More...</a></li>
-    {% endif %}
-  </ul>
-</section> -->
 
 <a name="projects"></a>
 <section id="projects">
