@@ -5,7 +5,6 @@
   description: >-
     A cross-platform mobile application to help students with their college search,
     built with Flutter.
-  url: https://collegebot.app
 
 - name: AirHorn
   type: phone
@@ -13,7 +12,6 @@
   image: airhorn.jpg
   description: >-
     The future of first responder communication, enabling advanced collaboration and response.
-  url: https://getairhorn.com
 
 - name: Snap Path
   type: phone
@@ -29,7 +27,6 @@
   image: wikihuh.jpg
   description: >-
     A cross-platform mobile multiplayer game built with Socket.io and Flutter.
-  url: https://wikihuh.kirp.al
 
 - name: Keyboard Renderer
   type: preview
