@@ -1,10 +1,18 @@
+- title: 'The Midcoast'
+  author: Adam White
+  isbn: 9780593243152
+  status: currently-reading
+  date_started: 2024/2/2
+  date_finished:
+  rating:
+
 - title: 'Kindred'
   author: Octavia Butler
   isbn: 9780807083697
-  status: currently-reading
+  status: read
   date_started: 2024/1/25
-  date_finished: 
-  rating: 
+  date_finished: 2024/1/30
+  rating: 5
   
 - title: 'Maphead: Charting the Wide, Weird World of Geography Wonks'
   author: Ken Jennings
