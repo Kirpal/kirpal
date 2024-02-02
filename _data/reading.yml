@@ -2,7 +2,7 @@
   author: Adam White
   isbn: 9780593243152
   status: currently-reading
-  date_started: 2024/2/2
+  date_started: 2024/02/02
   date_finished:
   rating:
 
@@ -10,16 +10,16 @@
   author: Octavia Butler
   isbn: 9780807083697
   status: read
-  date_started: 2024/1/25
-  date_finished: 2024/1/30
+  date_started: 2024/01/25
+  date_finished: 2024/01/30
   rating: 5
   
 - title: 'Maphead: Charting the Wide, Weird World of Geography Wonks'
   author: Ken Jennings
   isbn: 9781439167175
   status: read
-  date_started: 2024/1/1
-  date_finished: 2024/1/5
+  date_started: 2024/01/01
+  date_finished: 2024/01/05
   rating: 3
 
 - title: 'Winter Counts'
