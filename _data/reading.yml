@@ -1,10 +1,18 @@
+- title: 'The Water Dancer'
+  author: Ta-Nehisi Coates
+  isbn: 9780399590597
+  status: currently-reading
+  date_started: 2024/02/09
+  date_finished:
+  rating:
+  
 - title: 'The Midcoast'
   author: Adam White
   isbn: 9780593243152
-  status: currently-reading
+  status: read
   date_started: 2024/02/02
-  date_finished:
-  rating:
+  date_finished: 2024/02/07
+  rating: 3
 
 - title: 'Kindred'
   author: Octavia Butler
