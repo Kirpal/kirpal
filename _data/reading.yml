@@ -1,10 +1,18 @@
+- title: 'Rules of Civility'
+  author: Amor Towles
+  isbn: 9780670022694
+  status: read
+  date_started: 2024/02/26
+  date_finished: 2024/03/01
+  rating: 4.5
+
 - title: 'The Water Dancer'
   author: Ta-Nehisi Coates
   isbn: 9780399590597
-  status: currently-reading
+  status: read
   date_started: 2024/02/09
-  date_finished:
-  rating:
+  date_finished: 2024/02/09
+  rating: 4.5
   
 - title: 'The Midcoast'
   author: Adam White
