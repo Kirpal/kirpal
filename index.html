@@ -22,8 +22,17 @@ linked_styles:
       <li class="emoji-list-item" style="--list-emoji: '🌆 ';">I live in Boston, MA</li>
       <li class="emoji-list-item" style="--list-emoji: '🦄 ';">I'm working for <a href="https://verygood.ventures" style="color: var(--now-vgv-color);" target="_blank" rel="noopener">Very Good Ventures</a></li>
       <li class="emoji-list-item" style="--list-emoji: '🎧 ';"><span id="now-playing" class="loading-dots">I'm listening to</span></li>
-      {% assign current_book = site.data.reading | where: "status", "currently-reading" | sort: "date-started" | first %}
-      <li class="emoji-list-item" style="--list-emoji: '📖 ';">I'm reading <a href="/reading" style="color: var(--now-reading-color);"><cite>{{current_book.title}}</cite></a> by {{current_book.author}}</li>
+      {% assign reading_books = site.data.reading | where: "status", "currently-reading" | sort: "date-started" %}
+      {% if reading_books.size > 0 %}
+        {% assign current_book = reading_books | first %}
+        <li class="emoji-list-item" style="--list-emoji: '📖 ';">I'm reading <a href="/reading" style="color: var(--now-reading-color);"><cite>{{current_book.title}}</cite></a> by {{current_book.author}}</li>
+      {% else %}
+        {% assign read_books = site.data.reading | where: "status", "read" | sort: "date-finished" %}
+        {% if read_books.size > 0 %}
+          {% assign last_book = read_books | last %}
+          <li class="emoji-list-item" style="--list-emoji: '📖 ';">I last read <a href="/reading" style="color: var(--now-reading-color);"><cite>{{last_book.title}}</cite></a> by {{last_book.author}}</li>
+        {% endif %}
+      {% endif %}
       </ul>
     </p>
   </div>
