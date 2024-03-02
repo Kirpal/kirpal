@@ -29,7 +29,7 @@ linked_styles:
       {% else %}
         {% assign read_books = site.data.reading | where: "status", "read" | sort: "date-finished" %}
         {% if read_books.size > 0 %}
-          {% assign last_book = read_books | last %}
+          {% assign last_book = read_books | first %}
           <li class="emoji-list-item" style="--list-emoji: '📖 ';">I last read <a href="/reading" style="color: var(--now-reading-color);"><cite>{{last_book.title}}</cite></a> by {{last_book.author}}</li>
         {% endif %}
       {% endif %}
