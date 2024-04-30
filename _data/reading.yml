@@ -1,10 +1,26 @@
+- title: 'For Whom The Bell Tolls'
+  author: Ernest Hemingway
+  isbn: 9780099908609
+  status: currently-reading
+  date_started: 2024/04/25
+  date_finished:
+  rating:
+  
+- title: 'A Moveable Feast'
+  author: Ernest Hemingway
+  isbn: 9780099557029
+  status: read
+  date_started: 2024/04/10
+  date_finished: 2024/04/24
+  rating: 3
+  
 - title: 'White Teeth'
   author: Zadie Smith
   isbn: 9780375703867
-  status: currently-reading
+  status: read
   date_started: 2024/03/03
-  date_finished:
-  rating:
+  date_finished: 2024/04/06
+  rating: 4
 
 - title: 'Rules of Civility'
   author: Amor Towles
