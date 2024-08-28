@@ -1,3 +1,27 @@
+- title: 'Fahrenheit 451'
+  author: Ray Bradbury
+  isbn: 9780743247221
+  status: read
+  date_started: 
+  date_finished: 2024/08/18
+  rating: 3
+
+- title: 'On Beauty'
+  author: Zadie Smith
+  isbn: 9780143037743
+  status: read
+  date_started: 
+  date_finished: 2024/08/04
+  rating: 3.5
+  
+- title: 'Stay True'
+  author: Hua Hsu
+  isbn: 9780593315200
+  status: read
+  date_started: 2024/06/25
+  date_finished: 2024/07/01
+  rating: 3
+
 - title: 'For Whom The Bell Tolls'
   author: Ernest Hemingway
   isbn: 9780099908609
