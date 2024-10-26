@@ -1,3 +1,19 @@
+- title: 'Missoula'
+  author: John Krakauer
+  isbn: 9780385538732
+  status: read
+  date_started: 2024/10/22
+  date_finished: 2024/10/26
+  rating: 4
+
+- title: 'Playground'
+  author: Richard Powers
+  isbn: 9781324086031
+  status: read
+  date_started: 2024/10/07
+  date_finished: 2024/10/19
+  rating: 5
+
 - title: 'Birnam Wood'
   author: Eleanor Catton
   isbn: 9781776920631
