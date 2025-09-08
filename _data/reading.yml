@@ -1,3 +1,19 @@
+- title: One Day
+  author: David Nicholls
+  isbn: 9780307474711
+  status: read
+  date_started: 2025/08/13
+  date_finished: 2025/08/15
+  rating: 4.5
+  
+- title: Men Without Women
+  author: Ernest Hemingway
+  isbn: 9780593468845
+  status: read
+  date_started: 2025/08/11
+  date_finished: 2025/08/13
+  rating: 3.5
+
 - title: The Winter of Our Discontent
   author: John Steinbeck
   isbn: 9780140187533
