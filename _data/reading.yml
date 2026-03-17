@@ -1,3 +1,19 @@
+- title: Animal Dreams
+  author: Barbara Kingsolver
+  isbn: 9780062278500
+  status: read
+  date_started: 2026/03/12
+  date_finished: 2026/03/15
+  rating: 4.5
+
+- title: The Eight Mountains
+  author: Paolo Cognetti
+  isbn: 9781501169885
+  status: read
+  date_started: 2026/03/08
+  date_finished: 2026/03/11
+  rating: 4
+
 - title: The Bee Sting
   author: Paul Murray
   isbn: 9780374600303
