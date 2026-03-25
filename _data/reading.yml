@@ -1,3 +1,11 @@
+- title: The Bean Trees
+  author: Barbara Kingsolver
+  isbn: ''
+  status: read
+  date_finished: 2026/03/24
+  rating: '4'
+  goodreads_id: '59063942'
+
 - title: Animal Dreams
   author: Barbara Kingsolver
   isbn: '9780062278500'
@@ -657,7 +665,7 @@
 
 - title: The Handmaid's Tale
   author: Margaret Atwood
-  isbn: '038549081X'
+  isbn: 038549081X
   status: read
   date_started: 2021/04/02
   date_finished: 2021/04/02
@@ -684,7 +692,7 @@
 
 - title: 'The Everything Store: Jeff Bezos and the Age of Amazon'
   author: Brad Stone
-  isbn: '0316219266'
+  isbn: 0316219266
   status: read
   date_started: null
   date_finished: 2020/01/18
@@ -819,7 +827,7 @@
 
 - title: Educated
   author: Tara Westover
-  isbn: '0399590501'
+  isbn: 0399590501
   status: read
   date_started: null
   date_finished: 2020/09/21
@@ -936,7 +944,7 @@
 
 - title: Man's Search for Meaning
   author: Viktor E. Frankl
-  isbn: '080701429X'
+  isbn: 080701429X
   status: read
   date_started: null
   date_finished: 2021/02/17
@@ -972,7 +980,7 @@
 
 - title: Ender's Game
   author: Orson Scott Card
-  isbn: '0812550706'
+  isbn: 0812550706
   status: read
   date_started: null
   date_finished: 2021/03/17
